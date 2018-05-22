@@ -5,8 +5,8 @@ import org.brandao.brutos.annotation.Action;
 import org.brandao.brutos.annotation.View;
 import org.springframework.stereotype.Component;
 
-@Action(value="/", view=@View("view"))
 @Component
+@Action(value="/", view=@View("spring/view"))
 public class IndexController {
 
 }
